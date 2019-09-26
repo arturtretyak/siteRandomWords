@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Рандомник</title>
+	<link rel="stylesheet" href="css/main.css"></head>
+	<body>
+		<script src="js/main.js"></script>
+		<b id="textR">Впишіть будь-що та натисніть "Ентер"</b>
+		<input id="myText" type="text" size="40" onkeydown="saveTextToMassiveWords(event.key)">
+		<input id="buttonRandom" type="button" value="Випадкове слово" onclick="writen()">
+		<div id="hernaasd"></div>
+		<input id = "listOfWords" type="button" value ="Вивести масив" onclick="writeList()">
+		<table id = "textOfList">
+			<tr>
+				<td></td>
+			</tr>
+		</table>
+		<input id="buttonHide" type= "button" value="Сховати масив" onclick="funcHide()" >
+	</body>
+</html>

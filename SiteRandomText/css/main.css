@@ -1,0 +1,73 @@
+body{
+	padding: 0;
+	margin: 0;
+	background: #FFF;
+}
+
+@keyframes move{
+	from {
+		left: 0;
+		top: 0;
+	}
+	to {
+		left: 150px;
+		top: 0px;
+	}
+}
+i {
+	position: absolute;
+	width: 10px;
+	left: 150px;
+	height: 10px;
+	animation: move 3s;
+}
+/*text align center - random words or another*/
+#hernaasd{
+	overflow: auto;
+	position: absolute;
+	width: 1400px;
+	height: 80%;
+	top: 50px;
+	left: 400px;
+	font-size: 30px;
+	text-align: center;
+	border: 5px double black;
+	font-weight: 10px;
+}
+#buttonRandom{
+	position: absolute;
+	left: 30px;
+	top: 60px
+}
+#myText{
+	position: absolute;
+	left: 30px;
+	top: 30px;
+}
+#textR{
+	position: absolute;
+	left: 30px;
+	top: 10px;
+}
+#listOfWords{
+	position: absolute;
+	left: 30px;
+	top: 90px;
+}
+#textOfList{
+	overflow: auto;
+	font-size: 20px;
+	position: absolute;
+	left: 30px;
+	top: 120px;
+	border: 2px dotted black;
+	width: 300px;
+	height: 80%;
+	padding: 5px;
+	display: none;
+}
+#buttonHide{
+	position: absolute;
+	left: 150px;
+	top: 90px;
+}
